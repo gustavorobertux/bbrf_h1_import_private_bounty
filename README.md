@@ -12,3 +12,5 @@ Por exemplo, meu usuário é grrg então, coloque:
 E aqui você colocará seu token que foi previamente gerado na página da Hackerone
 
 ```TOKEN_HACKERONE="xxxxxxx/xxxxxxxxxxxxxxxxxx+xxxxxxxxxxx+xxxx="```
+
+IMPORTANTE: Ignore os erros gerados, o bbrf está com alguns bugs atualmente, o mantenedor está ciente.
