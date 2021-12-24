@@ -1,24 +1,24 @@
-### Script para importar os programas privados e que pagam da Hackerone
+### Import Private and Reward Paying Programs on Hackerone
 
-A utilização do script é simples:
+Using the script is simple:
 
-- Gere seu token na pagina da Hackerone
-- Baixe o script ```import.sh```
-- Neste script mude as variáveis, conforme abaixo:
+- Generate your token on the Hackerone page
+- Download the ```import.sh``` script
+- In this script, change the variables, as below:
 
-Por exemplo, meu usuário é grrg então, coloque:
+For example, my username is grrg so put:
 
-```USUARIO_HACKERONE="grrg"```
+```USER_HACKERONE="grrg"```
 
-E aqui você colocará seu token que foi previamente gerado na página da Hackerone
+And here you will put your token that was previously generated on the Hackerone page.
 
 ```TOKEN_HACKERONE="xxxxxxx/xxxxxxxxxxxxxxxxxx+xxxxxxxxxxx+xxxx="```
 
-- Dê permissão de execução ao arquivo import.sh
+- Set execution permission for the ```import.sh``` file
  
 ```chmod +x import.sh```
 
-- Execute o arquivo
+- Run the file
 ```./import.sh```
 
-**IMPORTANTE:** Ignore os erros gerados, o bbrf está com alguns bugs atualmente, o mantenedor está ciente.
+**IMPORTANT:** Ignore generated errors, bbrf is currently buggy, maintainer is aware.
